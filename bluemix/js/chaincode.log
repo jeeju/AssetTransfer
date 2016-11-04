@@ -1,0 +1,119 @@
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T20:43:05.619Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T20:46:07.920Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T20:53:54.630Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T20:56:26.947Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T20:57:28.113Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T20:58:36.885Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:01:23.335Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:03:31.126Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:04:19.307Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:04:59.908Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:06:04.373Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:08:57.858Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:10:09.904Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:10:59.238Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T21:58:00.722Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T22:01:30.278Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T22:05:10.132Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T22:07:53.276Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T22:08:33.120Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-02T22:16:32.948Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-03T15:23:23.664Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T14:40:06.654Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T14:54:30.123Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T14:56:01.548Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T14:58:16.057Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T14:59:24.577Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T15:00:09.624Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T15:02:11.072Z"}
+{"level":"info","message":"[ibc-js] Peer:  864acfab0a734673a4f99844a8b02129-vp0-864acfab0a73...:444","timestamp":"2016-11-04T15:02:26.986Z"}
+{"level":"info","message":"[ibc-js] No membership users found after filtering, assuming this is a network w/o membership","timestamp":"2016-11-04T15:02:26.987Z"}
+{"level":"info","message":"[ibc-js] removing temp dir","timestamp":"2016-11-04T15:02:26.988Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T15:02:26.989Z"}
+{"level":"info","message":"redirect... https://github.ibm.com/login?return_to=https%3A%2F%2Fgithub.ibm.com%2Fcompetitive-analysis%2Fcc126-blockchain%2Fbluemix%2Fblockchaincode.zip","timestamp":"2016-11-04T15:02:27.625Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T15:02:27.625Z"}
+{"level":"info","message":"redirect... https://w3id.sso.ibm.com/auth/sps/samlidp/saml20/logininitial?RequestBinding=HTTPPost&PartnerId=https://github.ibm.com&NameIdFormat=email","timestamp":"2016-11-04T15:02:28.032Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T15:02:28.033Z"}
+{"level":"info","message":"[ibc-js] Unzipping zip","timestamp":"2016-11-04T15:02:28.420Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T15:34:41.935Z"}
+{"level":"info","message":"[ibc-js] Peer:  864acfab0a734673a4f99844a8b02129-vp0-864acfab0a73...:444","timestamp":"2016-11-04T15:34:49.839Z"}
+{"level":"info","message":"[ibc-js] No membership users found after filtering, assuming this is a network w/o membership","timestamp":"2016-11-04T15:34:49.839Z"}
+{"level":"info","message":"[ibc-js] removing temp dir","timestamp":"2016-11-04T15:34:49.840Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T15:34:49.844Z"}
+{"level":"info","message":"[ibc-js] Unzipping zip","timestamp":"2016-11-04T15:34:50.737Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T15:54:21.313Z"}
+{"level":"info","message":"[ibc-js] Peer:  864acfab0a734673a4f99844a8b02129-vp0-864acfab0a73...:444","timestamp":"2016-11-04T15:54:28.735Z"}
+{"level":"info","message":"[ibc-js] No membership users found after filtering, assuming this is a network w/o membership","timestamp":"2016-11-04T15:54:28.736Z"}
+{"level":"info","message":"[ibc-js] removing temp dir","timestamp":"2016-11-04T15:54:28.736Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T15:54:28.740Z"}
+{"level":"info","message":"[ibc-js] Unzipping zip","timestamp":"2016-11-04T15:54:30.113Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T15:56:46.336Z"}
+{"level":"info","message":"[ibc-js] Peer:  864acfab0a734673a4f99844a8b02129-vp0-864acfab0a73...:444","timestamp":"2016-11-04T15:56:59.734Z"}
+{"level":"info","message":"[ibc-js] No membership users found after filtering, assuming this is a network w/o membership","timestamp":"2016-11-04T15:56:59.735Z"}
+{"level":"info","message":"[ibc-js] removing temp dir","timestamp":"2016-11-04T15:56:59.736Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T15:56:59.738Z"}
+{"level":"info","message":"[ibc-js] Unzipping zip","timestamp":"2016-11-04T15:57:00.558Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T15:58:58.192Z"}
+{"level":"info","message":"[ibc-js] Peer:  864acfab0a734673a4f99844a8b02129-vp0-864acfab0a73...:444","timestamp":"2016-11-04T15:59:09.641Z"}
+{"level":"info","message":"[ibc-js] No membership users found after filtering, assuming this is a network w/o membership","timestamp":"2016-11-04T15:59:09.642Z"}
+{"level":"info","message":"[ibc-js] removing temp dir","timestamp":"2016-11-04T15:59:09.643Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T15:59:09.645Z"}
+{"level":"info","message":"[ibc-js] Unzipping zip","timestamp":"2016-11-04T15:59:11.013Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T16:16:50.037Z"}
+{"level":"info","message":"[ibc-js] Peer:  864acfab0a734673a4f99844a8b02129-vp0-864acfab0a73...:444","timestamp":"2016-11-04T16:17:02.211Z"}
+{"level":"info","message":"[ibc-js] No membership users found after filtering, assuming this is a network w/o membership","timestamp":"2016-11-04T16:17:02.212Z"}
+{"level":"info","message":"[ibc-js] removing temp dir","timestamp":"2016-11-04T16:17:02.213Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T16:17:02.217Z"}
+{"level":"info","message":"redirect... https://codeload.github.com/IBM-Blockchain/marbles-chaincode/zip/master","timestamp":"2016-11-04T16:17:02.704Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T16:17:02.704Z"}
+{"level":"info","message":"[ibc-js] Unzipping zip","timestamp":"2016-11-04T16:17:03.909Z"}
+{"level":"info","message":"[ibc-js] Unzip done","timestamp":"2016-11-04T16:17:03.932Z"}
+{"0":"part2_chaincode.go","level":"info","message":"[ibc-js] Scanning files","timestamp":"2016-11-04T16:17:03.933Z"}
+{"level":"info","message":"[ibc-js] Parsing file for shim version","timestamp":"2016-11-04T16:17:03.933Z"}
+{"level":"info","message":"[ibc-js] Found shim version: github.com/openblockchain/obc-peer/openchain/chaincode/shim","timestamp":"2016-11-04T16:17:03.933Z"}
+{"level":"info","message":"[ibc-js] Parsing file for invoke functions - part2_chaincode.go","timestamp":"2016-11-04T16:17:03.934Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  init","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  delete","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  write","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  init_marble","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  set_user","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  open_trade","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  perform_trade","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  remove_trade","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Parsing file for query functions - part2_chaincode.go","timestamp":"2016-11-04T16:17:03.935Z"}
+{"level":"info","message":"[ibc-js] Found cc query function:  read","timestamp":"2016-11-04T16:17:03.936Z"}
+{"level":"info","message":"[ibc-js] load_chaincode() finished","timestamp":"2016-11-04T16:17:03.936Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T16:22:13.654Z"}
+{"level":"info","message":"[ibc-js] Peer:  864acfab0a734673a4f99844a8b02129-vp0-864acfab0a73...:444","timestamp":"2016-11-04T16:22:19.869Z"}
+{"level":"info","message":"[ibc-js] No membership users found after filtering, assuming this is a network w/o membership","timestamp":"2016-11-04T16:22:19.869Z"}
+{"level":"info","message":"[ibc-js] removing temp dir","timestamp":"2016-11-04T16:22:19.870Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T16:22:19.875Z"}
+{"level":"info","message":"redirect... https://codeload.github.com/IBM-Blockchain/marbles-chaincode/zip/master","timestamp":"2016-11-04T16:22:20.364Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T16:22:20.364Z"}
+{"level":"info","message":"[ibc-js] Unzipping zip","timestamp":"2016-11-04T16:22:21.094Z"}
+{"level":"info","message":"[ibc-js] Unzip done","timestamp":"2016-11-04T16:22:21.117Z"}
+{"0":"part2_chaincode.go","level":"info","message":"[ibc-js] Scanning files","timestamp":"2016-11-04T16:22:21.118Z"}
+{"level":"info","message":"[ibc-js] Parsing file for shim version","timestamp":"2016-11-04T16:22:21.119Z"}
+{"level":"info","message":"[ibc-js] Found shim version: github.com/openblockchain/obc-peer/openchain/chaincode/shim","timestamp":"2016-11-04T16:22:21.119Z"}
+{"level":"info","message":"[ibc-js] Parsing file for invoke functions - part2_chaincode.go","timestamp":"2016-11-04T16:22:21.119Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  init","timestamp":"2016-11-04T16:22:21.120Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  delete","timestamp":"2016-11-04T16:22:21.120Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  write","timestamp":"2016-11-04T16:22:21.120Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  init_marble","timestamp":"2016-11-04T16:22:21.120Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  set_user","timestamp":"2016-11-04T16:22:21.120Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  open_trade","timestamp":"2016-11-04T16:22:21.120Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  perform_trade","timestamp":"2016-11-04T16:22:21.120Z"}
+{"level":"info","message":"[ibc-js] Found cc invoke function:  remove_trade","timestamp":"2016-11-04T16:22:21.120Z"}
+{"level":"info","message":"[ibc-js] Parsing file for query functions - part2_chaincode.go","timestamp":"2016-11-04T16:22:21.121Z"}
+{"level":"info","message":"[ibc-js] Found cc query function:  read","timestamp":"2016-11-04T16:22:21.121Z"}
+{"level":"info","message":"[ibc-js] load_chaincode() finished","timestamp":"2016-11-04T16:22:21.121Z"}
+{"level":"info","message":"cofigureing ibc sdk with blockchain code!","timestamp":"2016-11-04T16:39:04.444Z"}
+{"level":"info","message":"[ibc-js] Peer:  864acfab0a734673a4f99844a8b02129-vp0-864acfab0a73...:444","timestamp":"2016-11-04T16:39:17.158Z"}
+{"level":"info","message":"[ibc-js] No membership users found after filtering, assuming this is a network w/o membership","timestamp":"2016-11-04T16:39:17.159Z"}
+{"level":"info","message":"[ibc-js] removing temp dir","timestamp":"2016-11-04T16:39:17.160Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T16:39:17.165Z"}
+{"level":"info","message":"redirect... https://github.ibm.com/login?return_to=https%3A%2F%2Fgithub.ibm.com%2Fcompetitive-analysis%2Fcc126-blockchain%2Fcc126-blockchain-master.zip","timestamp":"2016-11-04T16:39:17.749Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T16:39:17.749Z"}
+{"level":"info","message":"redirect... https://w3id.sso.ibm.com/auth/sps/samlidp/saml20/logininitial?RequestBinding=HTTPPost&PartnerId=https://github.ibm.com&NameIdFormat=email","timestamp":"2016-11-04T16:39:18.213Z"}
+{"level":"info","message":"[ibc-js] Downloading zip","timestamp":"2016-11-04T16:39:18.213Z"}
+{"level":"info","message":"[ibc-js] Unzipping zip","timestamp":"2016-11-04T16:39:18.676Z"}

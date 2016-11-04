@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+        <title>Blockchain Usecase</title>
+        <!--JQuery form validation-->
+        <link href='blockchain.css' rel='stylesheet' type='text/css' />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="center_header" >
+          <h2>BlockChain Usecase - Asset Transfer</h2>
+        </div>
+      </div> <!-- #header -->
+      <div id="content" >
+        <h3> Deploy blockchain</h3>
+        <table>
+        <form action = "http://127.0.0.1:8081/deploy" method = "POST">
+          <tr><td>Enter value for Asset holding:</td><td> <input type = "text" name = "asset_hold"></td></tr>
+        <tr><td><input type = "submit" value = "Deploy" class="button"></td></tr>
+        </form></table>
+        <h3> Intialize Asset Value</h3>
+        <table>
+        <form action = "http://127.0.0.1:8081/init_asset" method = "POST">
+          <tr><td>AssetId:</td><td> <input type = "text" name = "asset_id"> </td></tr>
+          <tr><td>Price: </td><td><input type = "text" name = "price"> </td></tr>
+          <tr><td>UserId: </td><td><input type = "text" name = "user_id">  </td></tr>
+          <tr><td><input type = "submit" value = "Init_asset" class="button"></td></tr>
+        </form></table>
+        <h3> Transfer Asset</h3>
+        <table>
+        <form action = "http://127.0.0.1:8081/set_user" method = "POST">
+          <tr><td> AssetId: </td><td><input type = "text" name = "asset_id"> </td></tr>
+           <tr><td>New User: </td><td><input type = "text" name = "user_id">  </td></tr>
+           <tr><td><input type = "submit" value = "set_user" class="button"></td></tr>
+        </form></table>
+        <h3> Get Asset Details</h3>
+        <table>
+        <form action = "http://127.0.0.1:8081/query" method = "GET">
+          <tr><td>  AssetId: </td><td><input type = "text" name = "asset_id"> </td></tr>
+          <tr><td>  <input type = "submit" value = "query" class="button"></td></tr>
+        </form></table>
+        <h3> Write Asset</h3>
+        <table>
+        <form action = "http://127.0.0.1:8081/write" method = "POST">
+            <tr><td> AssetId:</td><td> <input type = "text" name = "asset_id">  </td></tr>
+             <tr><td>Value:</td><td> <input type = "text" name = "value">  </td></tr>
+             <tr><td><input type = "submit" value = "write" class="button"></td></tr>
+        </form></table>
+        <h3> Get Asset Details</h3>
+        <table>
+          <form action = "http://127.0.0.1:8081/remove" method = "POST">
+              <tr><td>AssetId:</td><td> <input type = "text" name = "asset_id"> </td></tr>
+              <tr><td><input type = "submit" value = "Delete" class="button"></td></tr>
+          </form></table>
+      </div><!-- #content -->
+    </div> <!-- #wrapper -->
+   </body>
+</html>

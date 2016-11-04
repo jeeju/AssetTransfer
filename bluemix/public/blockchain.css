@@ -1,0 +1,29 @@
+#wrapper{
+   background:#DCDCDC;
+   width:500px;
+	margin:0 auto;
+}
+#header{
+  	font-family: "Times New Roman", Times, serif;
+				padding: 20px;
+				background: linear-gradient(#7B68EE, #ffffff);
+				background: -webkit-linear-gradient(#7B68EE, #ffffff);
+				background: -o-linear-gradient(#7B68EE, #ffffff);
+				background: -moz-linear-gradient(#7B68EE, #ffffff);
+}
+#content{
+	color:#000000;
+
+	}
+.button{
+  color:white;
+  background-color:black
+}
+.inner 		{	margin:0 20px;
+				padding:20px;
+				overflow:hidden;
+				font-family:"Times New Roman", Times, serif;
+				font-size: 1.0em;
+				text-align: left;
+
+			}

@@ -1,0 +1,22 @@
+{
+  "name": "cc126-blockchain-bluemix",
+  "version": "1.0.0",
+  "description": "blockchain on bluemix",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "mdonthi@ibm.com",
+  "license": "ISC",
+  "dependencies": {
+    "hfc": "^0.5.3",
+    "node-uuid": "^1.4.7",
+    "ibm-blockchain-js": "1.2.8",
+    "winston": "2.2.0",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.1.2"
+  }
+}
