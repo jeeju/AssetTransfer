@@ -35,7 +35,7 @@ func main(){
 
 // Inif function to reset all the things
 
-func (t *Chaincode) init(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *Chaincode) Init(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
 	var Aval int
 	var err error
 
@@ -70,15 +70,15 @@ func (t *Chaincode) init(stub *shim.ChaincodeStub, function string, args []strin
 }
 
 // Invoke function is an entry point for the chaincode
-func (t *Chaincode) invoke(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *Chaincode) Invoke(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
  	fmt.Println("invoke function is running" + function)
 
- 	if function == "init" {
- 		return t.init(stub, "init", args)
+ 	if function == "Init" {
+ 		return t.Init(stub, "Init", args)
  	} else if function == "delete" {
- 		return t.delete(stub, args)
+ 		return t.Delete(stub, args)
  	} else if function == "write" {
- 		return t.write(stub, args)
+ 		return t.Write(stub, args)
  	} else if function == "init_asset" {
  		return t.init_asset(stub, args)
  	} else if function == "set_user" {
@@ -89,7 +89,7 @@ func (t *Chaincode) invoke(stub *shim.ChaincodeStub, function string, args []str
  	return nil, errors.New("Received unknown function")
 }
 
-func (t *Chaincode) query(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *Chaincode) Query(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
  	fmt.Println("query is running"+ function)
 
  	if function == "read"{
@@ -121,7 +121,7 @@ func (t *Chaincode) read(stub *shim.ChaincodeStub, args []string) ([]byte, error
 }
 
 //write somethig into chaincode state
-func (t *Chaincode) write(stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *Chaincode) Write(stub *shim.ChaincodeStub, args []string) ([]byte, error){
 	var assetid, value string
 	var err error
 
@@ -141,7 +141,7 @@ func (t *Chaincode) write(stub *shim.ChaincodeStub, args []string) ([]byte, erro
 	return nil, nil
 }
 
-func (t *Chaincode) delete(stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *Chaincode) Delete(stub *shim.ChaincodeStub, args []string) ([]byte, error){
 
 
 	if len(args) !=1 {
