@@ -198,7 +198,7 @@ func (t *SimpleChaincode) Write(stub *shim.ChaincodeStub, args []string) ([]byte
 
 	return nil, nil
 }
-/ ============================================================================================================================
+// ============================================================================================================================
 // Init Marble - create a new marble, store into chaincode state
 // ============================================================================================================================
 func (t *SimpleChaincode) init_asset(stub *shim.ChaincodeStub, args []string) ([]byte, error) {
