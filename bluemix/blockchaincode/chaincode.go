@@ -40,7 +40,7 @@ func (t *SimpleChaincode) Init(stub *shim.ChaincodeStub, function string, args [
 	var err error
 
 	if len(args)!=1 {
-		return nil, errors.New("Incorrect number of argumentts. Expecting 1")
+		return nil, errors.New("Incorrect number of arguments. Expecting 1")
 	}
 
 	//Intialize the chaincode
