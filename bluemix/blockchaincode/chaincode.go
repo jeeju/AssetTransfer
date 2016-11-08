@@ -6,6 +6,8 @@ import(
 	"strconv"
 	"encoding/json"
 	"strings"
+
+	//"github.com/openblockchain/obc-peer/openchain/chaincode/shim"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 )
 
@@ -33,7 +35,7 @@ func main(){
 
 // Inif function to reset all the things
 
-func (t *Chaincode) Init(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *Chaincode) init(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
 	var Aval int
 	var err error
 
@@ -68,11 +70,11 @@ func (t *Chaincode) Init(stub *shim.ChaincodeStub, function string, args []strin
 }
 
 // Invoke function is an entry point for the chaincode
-func (t *Chaincode) Invoke(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *Chaincode) Run(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
  	fmt.Println("invoke function is running" + function)
 
- 	if function == "Init" {
- 		return t.Init(stub, "Init", args)
+ 	if function == "init" {
+ 		return t.Init(stub, "init", args)
  	} else if function == "delete" {
  		return t.Delete(stub, args)
  	} else if function == "write" {
@@ -183,7 +185,7 @@ func (t *Chaincode) Delete(stub *shim.ChaincodeStub, args []string) ([]byte, err
 		return nil, nil
 }
 
-func (t *Chaincode) init_asset (stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *Chaincode) init_asset(stub *shim.ChaincodeStub, args []string) ([]byte, error){
 	var err error
 
 	//		0						1								2
@@ -237,7 +239,7 @@ func (t *Chaincode) init_asset (stub *shim.ChaincodeStub, args []string) ([]byte
 }
 
 // set user on asset
-func (t *Chaincode) set_user (stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *Chaincode) set_user(stub *shim.ChaincodeStub, args []string) ([]byte, error){
 	var err error
 
 	// 			0    						1
@@ -263,5 +265,4 @@ func (t *Chaincode) set_user (stub *shim.ChaincodeStub, args []string) ([]byte, 
 
 	fmt.Println("- end set user")
 	return nil, nil
-
 }
