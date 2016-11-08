@@ -35,7 +35,7 @@ func main(){
 
 // Inif function to reset all the things
 
-func (t *SimpleChaincode) Init(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *SimpleChaincode) Init(stub *shim.ChaincodeStubInterface, function string, args []string) ([]byte, error){
 	var Aval int
 	var err error
 
@@ -71,13 +71,13 @@ func (t *SimpleChaincode) Init(stub *shim.ChaincodeStub, function string, args [
 // ============================================================================================================================
 // Run - Our entry point for Invocations
 // ============================================================================================================================
-func (t *SimpleChaincode) Run(stub shim.ChaincodeStub, function string, args []string) ([]byte, error) {
+func (t *SimpleChaincode) Run(stub shim.ChaincodeStubInterface, function string, args []string) ([]byte, error) {
 	fmt.Println("run is running " + function)
 	return t.Invoke(stub, function, args)
 }
 
 // Invoke function is an entry point for the chaincode
-func (t *SimpleChaincode) Invoke(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *SimpleChaincode) Invoke(stub *shim.ChaincodeStubInterface, function string, args []string) ([]byte, error){
  	fmt.Println("invoke function is running" + function)
 
  	if function == "init" {
@@ -96,7 +96,7 @@ func (t *SimpleChaincode) Invoke(stub *shim.ChaincodeStub, function string, args
  	return nil, errors.New("Received unknown function")
 }
 
-func (t *SimpleChaincode) Query(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *SimpleChaincode) Query(stub *shim.ChaincodeStubInterface, function string, args []string) ([]byte, error){
  	fmt.Println("query is running"+ function)
 
  	if function == "read"{
@@ -108,7 +108,7 @@ func (t *SimpleChaincode) Query(stub *shim.ChaincodeStub, function string, args 
 }
 
 // read from chaincode state
-func (t *SimpleChaincode) read(stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *SimpleChaincode) read(stub *shim.ChaincodeStubInterface, args []string) ([]byte, error){
 	var assetId, resp string
 	var err error
 
@@ -128,7 +128,7 @@ func (t *SimpleChaincode) read(stub *shim.ChaincodeStub, args []string) ([]byte,
 }
 
 //write somethig into chaincode state
-func (t *SimpleChaincode) Write(stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *SimpleChaincode) Write(stub *shim.ChaincodeStubInterface, args []string) ([]byte, error){
 	var assetid, value string
 	var err error
 
@@ -148,7 +148,7 @@ func (t *SimpleChaincode) Write(stub *shim.ChaincodeStub, args []string) ([]byte
 	return nil, nil
 }
 
-func (t *SimpleChaincode) Delete(stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *SimpleChaincode) Delete(stub *shim.ChaincodeStubInterface, args []string) ([]byte, error){
 
 
 	if len(args) !=1 {
@@ -192,7 +192,7 @@ func (t *SimpleChaincode) Delete(stub *shim.ChaincodeStub, args []string) ([]byt
 		return nil, nil
 }
 
-func (t *SimpleChaincode) init_asset(stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *SimpleChaincode) init_asset(stub *shim.ChaincodeStubInterface, args []string) ([]byte, error){
 	var err error
 
 	//		0						1								2
@@ -246,7 +246,7 @@ func (t *SimpleChaincode) init_asset(stub *shim.ChaincodeStub, args []string) ([
 }
 
 // set user on asset
-func (t *SimpleChaincode) set_user(stub *shim.ChaincodeStub, args []string) ([]byte, error){
+func (t *SimpleChaincode) set_user(stub *shim.ChaincodeStubInterface, args []string) ([]byte, error){
 	var err error
 
 	// 			0    						1
