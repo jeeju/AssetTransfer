@@ -35,7 +35,7 @@ func main(){
 
 // Inif function to reset all the things
 
-func (t *Chaincode) init(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *Chaincode) Init(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
 	var Aval int
 	var err error
 
@@ -68,9 +68,16 @@ func (t *Chaincode) init(stub *shim.ChaincodeStub, function string, args []strin
 	}
 	return nil, nil
 }
+// ============================================================================================================================
+// Run - Our entry point for Invocations
+// ============================================================================================================================
+func (t *SimpleChaincode) Run(stub shim.ChaincodeStub, function string, args []string) ([]byte, error) {
+	fmt.Println("run is running " + function)
+	return t.Invoke(stub, function, args)
+}
 
 // Invoke function is an entry point for the chaincode
-func (t *Chaincode) Run(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
+func (t *Chaincode) Invoke(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error){
  	fmt.Println("invoke function is running" + function)
 
  	if function == "init" {
